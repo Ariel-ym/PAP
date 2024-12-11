@@ -1,0 +1,79 @@
+body{
+    font-family: "Raleway", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: weight !important;
+    font-style: normal !important;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*
+Navbar
+*/
+
+.navbar {
+    background-color: #d8c3a5; 
+  }
+.navbar-nav .nav-link {
+    
+    font-size: 18px;
+    
+  }
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); /* Botão sem borda visível */
+}
+
+/* 
+Website
+*/
+
+/* 
+About-me
+*/
+
+.about-me {
+    background-image: url('/resources/imagens/img1inicio.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 99vw;
+    height: 100vh;
+    position: relative;
+}
+
+.about-me div {
+    position: absolute;
+    bottom: 20px; 
+    width: 50%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: rgba(216, 195, 165, 0.6); 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.about-me button{
+    background: #844D36;
+    padding: 5px 19px;
+    border-radius: 5px;
+    border: 1px solid #000; 
+    
+}
+
+/* 
+Footer
+*/
+
+footer{
+    background-color: #d8c3a5;
+    text-align: center; 
+    padding: 40px; 
+    
+}
+
+
+
+ 
